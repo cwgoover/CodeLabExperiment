@@ -22,7 +22,7 @@ object MentoringCardsOrderStrategy {
             return
         }
         
-        val mentorCards = items.filter { it is MentorCard }
+        val mentorCards = items.filterIsInstance<MentorCard>()
         val programCards = items.filter { it is ProgramCard }
         
         items.clear()

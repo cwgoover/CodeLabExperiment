@@ -1,2 +1,2 @@
-rootProject.name = "TestField"
+rootProject.name = "CodeLabExperiment"
 
